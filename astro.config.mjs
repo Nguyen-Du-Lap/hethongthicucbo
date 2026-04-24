@@ -50,6 +50,7 @@ export default defineConfig({
 										{ label: 'Tạo đề thi', slug: 'admin/de-thi/tao-de-thi' },
 										{ label: 'Quản lý đề thi', slug: 'admin/de-thi/quan-ly-de-thi' },
 										{ label: 'Thêm vào', slug: 'admin/de-thi/them-vao' },
+										{ label: 'Chỉnh sửa đề thi', slug: 'admin/de-thi/chinh-sua-de-thi' },
 									]
 								},
 								{ label: 'Danh sách Lớp', slug: 'admin/danh-sach-lop' },
