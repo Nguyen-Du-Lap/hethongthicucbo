@@ -64,3 +64,4 @@ Hệ thống cũng hỗ trợ xem chi tiết từng câu hỏi và lọc kết q
 - Nên làm bài ôn luyện thường xuyên để ghi nhớ kiến thức tốt hơn.
 - Sau mỗi lần nộp bài, nên xem kỹ các câu sai và phần giải thích.
 - Có thể đánh dấu những câu chưa chắc chắn để quay lại kiểm tra trước khi kết thúc bài.
+- Nhấn Enter, phím mũi tên sang phải để nộp bài hoặc chuyển sang câu khác.
