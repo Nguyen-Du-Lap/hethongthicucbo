@@ -2,7 +2,9 @@
 title: Bắt đầu nhanh
 description: Các bước ngắn gọn để cài đặt, khởi động và đăng nhập vào hệ thống.
 ---
-# 1. Khởi động dự án
+## 1. Khởi động dự án	
+
+Nếu chưa cài đặt Nodejs thì hãy sang [Cài đặt thiết lập](/cai-dat-va-thiet-lap)
 
 ### Nếu dùng Windows
 

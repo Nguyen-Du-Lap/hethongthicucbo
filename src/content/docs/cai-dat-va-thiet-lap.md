@@ -2,7 +2,7 @@
 title: Cài đặt và thiết lập
 description: Hướng dẫn setup cơ bản cho người triển khai hệ thống trong môi trường mạng nội bộ.
 ---
-# Cài đặt và thiết lậ
+# Cài đặt và thiết lập
 
 ## 1. Cài đặt Node.js nếu máy chưa có
 
