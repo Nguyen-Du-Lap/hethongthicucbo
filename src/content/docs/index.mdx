@@ -1,0 +1,39 @@
+---
+title: Hệ thống thi cục bộ
+description: Website hướng dẫn sử dụng hệ thống thi cục bộ dành cho giáo viên, học sinh và người vận hành.
+template: splash
+hero:
+  tagline: Tài liệu sử dụng gọn gàng, dễ tra cứu, tập trung vào các thao tác thực tế khi tổ chức thi trong mạng nội bộ.
+  actions:
+    - text: Download now
+      link: /phat-hanh/
+      icon: right-arrow
+      variant: primary
+    - text: Get started
+      link: /bat-dau-nhanh/
+      icon: rocket
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<div class="intro-banner">
+  **Dành cho giáo viên, học sinh và người vận hành** cần một bộ hướng dẫn đơn giản, rõ ràng và có thể tra cứu nhanh chóng trong lúc làm việc.
+</div>
+
+## Đặc điểm nổi bật
+
+<CardGrid>
+  <Card title="Tổ chức thi trong mạng LAN" icon="laptop">
+    Hệ thống được thiết kế để vận hành ổn định trong môi trường mạng nội bộ, phù hợp cho phòng máy, lớp học và các buổi thi tập trung.
+  </Card>
+  <Card title="Hỗ trợ nhiều dạng câu hỏi" icon="puzzle">
+    Dễ dàng xây dựng đề với nhiều kiểu câu hỏi như chọn một, chọn nhiều, đúng/sai, nối cặp và kéo thả, phù hợp với nhiều mục tiêu đánh giá.
+  </Card>
+  <Card title="Tạo đề nhanh, quản lý linh hoạt" icon="open-book">
+    Giáo viên có thể tạo đề thủ công, nhập từ tệp, tái sử dụng đề cũ hoặc kết hợp AI để rút ngắn thời gian chuẩn bị nội dung.
+  </Card>
+  <Card title="Theo dõi và tổng hợp kết quả" icon="list-format">
+    Hệ thống hỗ trợ giám sát quá trình làm bài, ghi nhận trạng thái học sinh, xem chi tiết kết quả và xuất dữ liệu khi cần tổng hợp.
+  </Card>
+</CardGrid>
