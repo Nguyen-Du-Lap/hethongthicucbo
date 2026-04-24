@@ -22,6 +22,8 @@ export default defineConfig({
 			components: {
 				Head: './src/components/StarlightHead.astro',
 				Search: './src/components/StarlightSearch.astro',
+				ThemeProvider: './src/components/StarlightThemeProvider.astro',
+				ThemeSelect: './src/components/StarlightThemeSelect.astro',
 			},
 			customCss: ['./src/styles/custom.css'],
 			sidebar: [
