@@ -2,7 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-const site = process.env.SITE_URL || 'https://example.github.io';
+const site = process.env.SITE_URL || 'https://hethongthicucbo.vercel.app/';
 const base = process.env.BASE_PATH || '/';
 
 export default defineConfig({

@@ -1,7 +1,75 @@
 ---
 import DefaultHead from '@astrojs/starlight/components/Head.astro';
 import { ClientRouter } from 'astro:transitions';
+
+const { entry } = Astro.locals.starlightRoute;
+const pageTitle = entry.data.title;
+const pageDescription =
+	entry.data.description ||
+	'Tai lieu huong dan su dung he thong thi cuc bo cho giao vien, hoc sinh va nguoi van hanh.';
+const siteName = 'He thong thi cuc bo';
+const rootUrl = Astro.site?.href || Astro.url.origin;
+const pageUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : Astro.url.href;
+const ogImage = Astro.site ? new URL('/favicon.svg', Astro.site).href : `${Astro.url.origin}/favicon.svg`;
+const pageType = entry.data.template === 'splash' ? 'website' : 'article';
+const isFaqPage = entry.id === 'troubleshooting-faq';
+
+const organizationSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'Organization',
+	name: siteName,
+	url: rootUrl,
+	logo: ogImage,
+	description:
+		'Tai lieu huong dan cho he thong thi cuc bo, phan mem thi trac nghiem noi bo va van hanh thi trong mang LAN.',
+};
+
+const webSiteSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'WebSite',
+	name: siteName,
+	url: rootUrl,
+	inLanguage: 'vi',
+	description:
+		'Tai lieu huong dan he thong thi cuc bo danh cho giao vien, hoc sinh va nguoi quan tri.',
+};
+
+const pageSchema = {
+	'@context': 'https://schema.org',
+	'@type': isFaqPage ? 'FAQPage' : 'TechArticle',
+	headline: pageTitle,
+	description: pageDescription,
+	url: pageUrl,
+	inLanguage: 'vi',
+	isPartOf: {
+		'@type': 'WebSite',
+		name: siteName,
+		url: rootUrl,
+	},
+	publisher: {
+		'@type': 'Organization',
+		name: siteName,
+		logo: {
+			'@type': 'ImageObject',
+			url: ogImage,
+		},
+	},
+};
 ---
 
 <DefaultHead />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta name="author" content={siteName} />
+<meta name="theme-color" content="#0b5fff" />
+<meta property="og:title" content={pageTitle} />
+<meta property="og:description" content={pageDescription} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:alt" content={pageTitle} />
+<meta property="og:type" content={pageType} />
+<meta name="twitter:title" content={pageTitle} />
+<meta name="twitter:description" content={pageDescription} />
+<meta name="twitter:image" content={ogImage} />
+<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(webSiteSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(pageSchema)} />
 <ClientRouter fallback="swap" />
