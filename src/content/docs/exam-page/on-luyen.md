@@ -1,67 +1,38 @@
 ---
-title: Ôn luyện
-description: Hướng dẫn học sinh học và làm bài trong chế độ ôn luyện.
+title: Cách ôn luyện trên hệ thống thi cục bộ
+description: Hướng dẫn học sinh tự luyện, làm lại bài ôn luyện nhiều lần và xem lại kết quả để đạt kiến thức tốt nhất.
 ---
-# Ôn luyện
 
-Trang này hướng dẫn học sinh sử dụng chế độ **Ôn luyện** để học tập và luyện tập hằng ngày trên hệ thống.
+# Cách ôn luyện trên hệ thống thi cục bộ
 
-## Ôn luyện là gì?
+Trang này chia sẻ chi tiết cách học sinh tự luyện mỗi ngày theo tính năng **Ôn luyện** trong hệ thống. So với [cách làm bài thi thử](/exam-page/thi-thu/) - có tính giới hạn thời gian cao hơn, phần ôn luyện này tập trung hỗ trợ học sinh học nhiều hơn là kiểm tra đánh giá.
 
-Chế độ **Ôn luyện** giúp học sinh luyện tập theo từng phần kiến thức với áp lực thấp hơn so với một buổi thi chính thức. Đây là chế độ phù hợp để rèn kỹ năng làm bài, xem lại lỗi sai và cải thiện kết quả qua nhiều lần luyện tập.
+## Mô tả mục tiêu ôn luyện
 
-## Cách bắt đầu ôn luyện
+Mục tiêu chính khi giáo viên cho phép dùng chức năng này [từ Admin](/admin/on-luyen/) là giúp thí sinh xoáy sâu các câu trả lời sai. Hệ thống đóng vai trò như một kho học vấn lặp, bạn có thể thực hành các câu hỏi cơ bản thuộc chương trình theo cách nhớ lâu nhất để nâng cao khả năng làm trắc nghiệm lanh bén. 
 
-Để tham gia một bài ôn luyện, học sinh thực hiện theo các bước sau:
+## Trường hợp nên dùng chế độ này
 
-1. Mở giao diện làm bài theo hướng dẫn của giáo viên hoặc hệ thống.
-2. Chọn nội dung hoặc bài ôn luyện cần làm.
-3. Làm lần lượt từng câu hỏi trong bài.
-4. Nộp bài để xem kết quả và xem lại các phần chưa đúng.
+- **Khi học lý thuyết mới:** Đọc xong bài, sử dụng nó để xâu chuỗi thông tin.
+- **Trước các kỳ kiểm tra 15 phút, 1 tiết:** Thực hành làm các câu hỏi khó để nâng cao phản xạ với đề mục.
+- Nếu học sinh muốn củng cố kiến thức mà chưa cần giáo viên lấy điểm đánh giá.
 
-## Các thao tác trong khi làm bài
+## Có được làm lại bài ôn luyện hay xem đáp án không?
 
-Trong giao diện ôn luyện, học sinh có thể sử dụng các nút và công cụ sau:
+- **Hỗ trợ làm lại vô giới hạn:** Hệ thống cho phép làm đi làm lại một đề bài tùy thích theo số lần lặp, đặc biệt là nhắc lại các câu sai liên tục theo chu trình cho tới mức ghi nhớ.
+- **Xem tận mắt lý giải chi tiết:** Ở bản nộp điểm, màn hình sẽ hiển hiện đáp án phân tích, hướng dẫn làm đúng của giáo viên đã soạn sẵn nên người làm tiện bề đối chứng. 
 
-- **Trước**: quay lại câu hỏi trước đó.
-- **Đặt lại**: xóa đáp án đã chọn ở câu hiện tại.
-- **Bỏ qua**: bỏ qua câu hỏi hiện tại để làm sau.
-- **Tiếp**: chuyển sang câu tiếp theo.
-- **Nộp bài**: gửi bài để xem kết quả, đáp án đúng và phần giải thích.
+## Cách tham gia 
 
-> Lưu ý: Nếu chưa chọn đáp án, học sinh sẽ không thể nộp bài cho câu đó theo thiết lập của hệ thống.
+1. Theo quy định đường dẫn truy cập của các thầy cô, nhấn mở chọn bộ câu hỏi ôn.
+2. Dùng các thẻ lựa chọn A B C D để nảy qua nội dung.
+3. Quan sát các cảnh báo câu sai ngay sau lúc kết thúc làm.
 
-## Các công cụ hỗ trợ trên màn hình
+## Lưu ý & Hỗ trợ sử dụng
 
-Ngoài các nút làm bài chính, giao diện ôn luyện còn có các công cụ hỗ trợ sau:
+- Nên làm thường xuyên. Nếu có lỗi nảy sinh khi bấm vào không mở được giao diện, có thể tham khảo mục [Gỡ lỗi - Troubleshooting FAQ](/troubleshooting-faq/) để biết hệ thống hay rớt Wifi.
+- Đánh dấu câu nào là bấm ngay hình lá cờ nhỏ trên màn để rà lại thật sát.
 
-- Biểu tượng danh sách câu hỏi: xem các câu đã làm, chưa làm hoặc cần xem lại.
-- Biểu tượng cỡ chữ: thay đổi kích thước chữ hiển thị.
-- Biểu tượng phóng to/thu nhỏ: điều chỉnh cách hiển thị màn hình.
-- Biểu tượng đánh dấu: đánh dấu các câu chưa chắc chắn để xem lại sau.
-- ESC: Thoát màn hình lớn.
+## Bước kế tiếp
 
-Những công cụ này giúp học sinh theo dõi tiến độ làm bài và điều chỉnh giao diện phù hợp hơn trong quá trình học.
-
-## Sau khi nộp bài
-
-Sau khi hoàn thành bài ôn luyện, học sinh có thể:
-
-- Làm lại đề.
-- Xem lại bài đã làm.
-- Chọn đề khác để tiếp tục luyện tập.
-- Làm lại các câu sai.
-
-Hệ thống cũng hỗ trợ xem chi tiết từng câu hỏi và lọc kết quả theo các nhóm:
-
-- `Tất cả`
-- `Đúng`
-- `Sai`
-- `Bỏ qua`
-
-## Gợi ý sử dụng
-
-- Nên làm bài ôn luyện thường xuyên để ghi nhớ kiến thức tốt hơn.
-- Sau mỗi lần nộp bài, nên xem kỹ các câu sai và phần giải thích.
-- Có thể đánh dấu những câu chưa chắc chắn để quay lại kiểm tra trước khi kết thúc bài.
-- Nhấn Enter, phím mũi tên sang phải để nộp bài hoặc chuyển sang câu khác.
+Thông qua việc thực hiện tự làm trên máy qua mô hình phòng luyện này, học sinh mới sẵn sàng tham gia làm việc tốt ở vòng [bài thi thử tổng quan](/exam-page/thi-thu/).

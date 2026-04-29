@@ -1,77 +1,41 @@
 ---
-title: Thi thử
-description: Hướng dẫn học sinh làm bài ở chế độ thi thử.
+title: Cách làm bài thi thử trên hệ thống thi cục bộ
+description: Hướng dẫn học sinh thi thử, luyện thi trên hệ thống và các thao tác cách làm bài thi thử chuẩn bị cho kỳ thi chính thức.
 ---
-# Thi thử
 
-Trang này hướng dẫn học sinh làm bài trong chế độ **thi thử**.
+# Cách làm bài thi thử
 
-## Thi thử là gì?
+Trang này hướng dẫn về cách mà học sinh tham gia luyện thi trên hệ thống, thực hành các kỹ năng trong chế độ thi thử do nhà trường đặt ra trước kỳ đánh giá lớn. Học sinh thi thử để tăng độ tin cậy khi làm bài sau này.
 
-`Thi thử` là chế độ giúp học sinh:
+## Mục đích của thi thử
 
-- Làm quen với giao diện,
-- Thử cách vào phòng và làm bài,
-- Luyện tập trước buổi thi thật.
-- Giáo viên khảo sát, đánh giá được chất lượng của học sinh
+- Giúp các học sinh trải nghiệm, hiểu về màn hình giao diện công cụ và cách xem, chọn đáp án thực tế từ lúc đăng nhập đến khi nộp bài.
+- Giáo viên phân chia, kiểm tra đường truyền kết nối, mức độ sẵn sàng truy cập để loại trừ các khó khăn kỹ thuật nếu có.
+- Được coi là bài luyện đánh giá tổng quát về trình độ học sinh khi đã quen cách tự chủ thao tác. 
 
-## Cách tham gia
+## Thi thử khác gì với Phiên thi chính thức?
 
-1. Mở giao diện làm bài theo hướng dẫn của giáo viên.
-2. Xem số thứ tự trong danh sách lớp
-3. Nhập thông tin cần thiết nếu hệ thống yêu cầu.
-4. Vào bài thi thử.
-5. Kiểm tra lại tên và STT
-6. Chọn bài thi.
-7. Thực hiện bài làm như một buổi thi thông thường.
+Khi nằm trong môi trường **Thi thử** do giáo viên tạo ra trong trang [Cấu hình Thi thử](/admin/thi-thu/):
+- Việc hiển thị cảnh cáo thoát trang hay bị văng ngoài ý muốn diễn ra bình thường nhưng kết quả sẽ mang tính chất "khảo sát", không lấy vào sổ điểm như màn hình thực tại [Phiên thi chính thức](/exam-page/phien-thi/).
+- Học sinh không quan tâm nặng nề tới kết quả, có thể tự rèn luyện lại sau này tuy nhiên không được làm lại nhiều lần ngay lập tức giống như [Ôn Luyện](/exam-page/on-luyen/).
 
-## Trong lúc làm bài
+## Kết quả có được lưu ra sao?
 
-- Học sinh vẫn nên đọc kỹ đề và thao tác cẩn thận.
-- Có thể xem đây là buổi tập dượt trước khi thi thật.
-- Nên thử đầy đủ các thao tác: chọn đáp án, chuyển câu, nộp bài.
+- Tương tự thi thật, thông tin về điểm, số câu Đúng/Sai được hệ thống chấm, lưu lại. Tuy nhiên, nó được gom phân theo cụm "Báo cáo thử" dành cho giáo viên nhìn nhận rút kinh nghiệm về câu hỏi mà học sinh hay mắc bẫy thay vì tính là điểm chính khóa.
 
-## Các thao tác trong khi làm bài
+## Các bước vào phòng và cách làm bài thi thử
 
-Trong giao diện ôn luyện, học sinh có thể sử dụng các nút và công cụ sau:
+1. Mở link giao diện và kết nối do máy tính phòng cung cấp.
+2. Tìm kiếm tên/STT danh sách lớp, chọn.
+3. Chờ thời gian đếm hoặc tham gia bắt đầu làm đề.
+4. Lựa Câu trả lời, bấm "**Tiếp**" hoặc "**Bỏ qua**".
+5. Xem bảng tổng kết góc phải và bấm nút "**Nộp bài**" cuối cùng. 
 
-- **Trước**: quay lại câu hỏi trước đó.
-- **Đặt lại**: xóa đáp án đã chọn ở câu hiện tại.
-- **Bỏ qua**: bỏ qua câu hỏi hiện tại để làm sau.
-- **Tiếp**: chuyển sang câu tiếp theo.
-- **Nộp bài**: gửi bài để xem kết quả, đáp án đúng và phần giải thích.
+## Lỗi thường gặp 
 
-> Lưu ý: Nếu chưa chọn đáp án, học sinh sẽ không thể nộp bài cho câu đó theo thiết lập của hệ thống.
+- Bỏ qua cảnh báo chưa làm một số câu và bấm "Nộp Bài" -> Mất điểm do không thể quay lại thi tiếp.
+- Bấm F5 tải lại trang giữa chừng khi thời gian đếm về 0: Hệ thống tự động thu điểm. Hãy bình tĩnh bấm `Tiếp tục` nếu lỡ chạm F5.
 
-## Các công cụ hỗ trợ trên màn hình
+## Bước tiếp theo
 
-Ngoài các nút làm bài chính, giao diện ôn luyện còn có các công cụ hỗ trợ sau:
-
-- Biểu tượng danh sách câu hỏi: xem các câu đã làm, chưa làm hoặc cần xem lại.
-- Biểu tượng cỡ chữ: thay đổi kích thước chữ hiển thị.
-- Biểu tượng phóng to/thu nhỏ: điều chỉnh cách hiển thị màn hình.
-- Biểu tượng đánh dấu: đánh dấu các câu chưa chắc chắn để xem lại sau.
-- ESC: Thoát màn hình lớn.
-
-Những công cụ này giúp học sinh theo dõi tiến độ làm bài và điều chỉnh giao diện phù hợp hơn trong quá trình học.
-
-## Sau khi nộp bài
-
-Sau khi hoàn thành bài ôn luyện, học sinh có thể:
-
-- Làm lại đề.
-- Xem lại bài đã làm.
-- Chọn đề khác để tiếp tục luyện tập.
-
-Hệ thống cũng hỗ trợ xem chi tiết từng câu hỏi và lọc kết quả theo các nhóm:
-
-- `Tất cả`
-- `Đúng`
-- `Sai`
-- `Bỏ qua`
-
-## Khi nào nên dùng?
-
-- Trước kỳ thi thật.
-- Khi mới bắt đầu làm quen với hệ thống.
-- Khi giáo viên cần kiểm tra xem phòng máy đã sẵn sàng hay chưa.
+Khi tham gia chế độ này rành rẽ, học sinh sẽ sẵn sàng cho quá trình tham gia [Phiên thi chuẩn thực tế](/exam-page/phien-thi/).

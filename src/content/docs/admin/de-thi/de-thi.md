@@ -1,36 +1,85 @@
 ---
 title: Đề Thi
-description: Hướng dẫn tạo, chỉnh sửa, nhập và quản lý đề thi trong giao diện Admin.
+description: Hướng dẫn tạo, nhập, chỉnh sửa và quản lý đề thi trắc nghiệm trong hệ thống thi cục bộ dành cho giáo viên và quản trị viên.
 ---
+
 # Đề Thi
 
-Tab **Đề Thi** dùng để tạo mới, chỉnh sửa và quản lý toàn bộ ngân hàng đề thi.
+Trang **Đề Thi** là trung tâm quản lý toàn bộ thư viện đề trong **hệ thống thi cục bộ**. Nếu bạn đang cần **tạo đề thi trắc nghiệm**, nhập ngân hàng câu hỏi hoặc chuẩn bị đề cho một buổi thi trong mạng LAN, đây là nơi bắt đầu quan trọng nhất ở khu vực Admin.
 
-## Bạn có thể làm gì trong tab này?
+Từ trang này, bạn có thể chuyển sang các tác vụ chi tiết như [Tạo đề thi](/admin/de-thi/tao-de-thi/), [Quản lý đề thi](/admin/de-thi/quan-ly-de-thi/), [Chỉnh sửa đề thi](/admin/de-thi/chinh-sua-de-thi/) và [Thêm vào](/admin/de-thi/them-vao/).
 
-- Tạo đề thi mới.
-- Chỉnh sửa thông tin đề thi.
-- Nhập đề từ file `.docx`, `.txt` hoặc JSON.
-- Xuất dữ liệu đề để sao lưu hoặc dùng trên máy khác.
+## Đề thi trong hệ thống thi cục bộ gồm những gì?
 
-## Thông tin thường có trong một đề thi
+Một đề thi thường có các thông tin cơ bản:
 
-- Tên đề thi
-- Thời lượng làm bài
-- Điểm đạt
-- Điểm tối đa
-- Danh sách câu hỏi
+- tên đề thi,
+- thời lượng làm bài,
+- điểm đạt,
+- điểm tối đa,
+- danh sách câu hỏi và đáp án.
 
-## Các bước cơ bản
+Khi chuẩn bị đề cho buổi thi thật, bạn nên kiểm tra lại toàn bộ các thành phần này trước khi gán đề vào phiên thi.
 
-1. Mở tab `Đề Thi`.
-2. Tạo đề mới hoặc chọn đề đã có để chỉnh sửa.
-3. Nhập đầy đủ thông tin cơ bản.
-4. Thêm câu hỏi hoặc import từ file.
-5. Lưu lại trước khi dùng đề đó cho phiên thi.
+## Bạn có thể làm gì trong khu vực Đề Thi?
 
-## Lưu ý
+- Tạo đề thi mới từ đầu.
+- Nhập đề từ file `.docx`, `.txt` hoặc `JSON`.
+- Chỉnh sửa lại nội dung, đáp án và cấu trúc câu hỏi.
+- Sao lưu hoặc xuất đề để dùng lại trên máy khác.
+- Gán đề vào **Phiên thi**, **Thi thử** hoặc **Ôn luyện**.
 
-- Nên đặt tên đề rõ ràng theo môn học hoặc khối lớp.
-- Sau khi import, cần kiểm tra lại cấu trúc câu hỏi.
-- Nên ưu tiên dùng JSON khi cần sao chép đề giữa nhiều máy.
+## Quy trình làm việc khuyến nghị
+
+### Bước 1: Tạo hoặc nhập đề
+
+Nếu chưa có đề thi, hãy vào [Tạo đề thi](/admin/de-thi/tao-de-thi/) để:
+
+- tạo đề mới,
+- nhập từ file văn bản,
+- tái sử dụng đề cũ,
+- hoặc chuẩn hóa nội dung do AI sinh ra.
+
+### Bước 2: Rà lại nội dung đề
+
+Sau khi nhập hoặc tạo xong, cần kiểm tra:
+
+- đáp án đúng đã được đánh dấu chuẩn chưa,
+- câu hỏi có bị lỗi chính tả hoặc thiếu dữ liệu không,
+- thời lượng và điểm đạt có phù hợp với mục tiêu bài thi không.
+
+Nếu cần sửa sâu, xem [Chỉnh sửa đề thi](/admin/de-thi/chinh-sua-de-thi/).
+
+### Bước 3: Quản lý và tái sử dụng đề
+
+Khi số lượng đề tăng lên, bạn nên dùng [Quản lý đề thi](/admin/de-thi/quan-ly-de-thi/) để lọc, tìm kiếm, sao lưu hoặc khôi phục.
+
+### Bước 4: Gán đề vào đúng chế độ sử dụng
+
+Trước khi cho học sinh dùng, bạn cần thực hiện bước [Thêm vào](/admin/de-thi/them-vao/) để đưa đề vào:
+
+- **Phiên thi** nếu là buổi thi chính thức,
+- **Thi thử** nếu muốn học sinh làm thử,
+- **Ôn luyện** nếu cần học sinh luyện lại nhiều lần.
+
+## Khi nào nên dùng từng hình thức nhập đề?
+
+- Dùng `.docx` hoặc `.txt` khi bạn đã có bộ câu hỏi dạng văn bản.
+- Dùng `JSON` khi cần sao chép dữ liệu giữa các máy hoặc hệ thống.
+- Dùng tạo mới trực tiếp khi muốn kiểm soát từng câu hỏi ngay từ đầu.
+
+Nếu bạn chưa chắc cách nhập nào phù hợp, hãy đọc kỹ [Tạo đề thi](/admin/de-thi/tao-de-thi/).
+
+## Lưu ý khi quản lý đề thi trắc nghiệm
+
+- Nên đặt tên đề rõ ràng theo môn học, khối lớp hoặc đợt kiểm tra.
+- Sau mỗi lần import, cần kiểm tra lại cấu trúc câu hỏi và đáp án.
+- Với đề dùng cho thi thật, nên có một lần thử nhanh trước khi tạo [Phiên thi](/admin/phien-thi/).
+
+## Bước tiếp theo sau khi đã có đề
+
+Nếu bạn đã hoàn tất đề thi, hãy chuyển sang:
+
+1. [Thêm vào](/admin/de-thi/them-vao/)
+2. [Phiên thi](/admin/phien-thi/)
+3. [Troubleshooting / FAQ](/troubleshooting-faq/)

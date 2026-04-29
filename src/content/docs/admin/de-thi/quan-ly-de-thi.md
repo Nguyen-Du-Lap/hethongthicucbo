@@ -1,64 +1,89 @@
 ---
 title: Quản lý đề thi
-description: Hướng dẫn quản lý danh sách đề thi, danh mục, sao lưu và khôi phục dữ liệu.
+description: Hướng dẫn quản lý danh sách đề thi, tìm kiếm, lọc, sao lưu và khôi phục dữ liệu đề thi trong hệ thống thi cục bộ.
 ---
 
-## Tổng quan
+# Quản lý đề thi
 
-Trang **Quản lý đề thi** giúp bạn theo dõi và thao tác với toàn bộ đề thi trong hệ thống. Tại đây, bạn có thể tìm kiếm, lọc, chỉnh sửa, xóa đề thi, đồng thời quản lý danh mục và thực hiện sao lưu hoặc khôi phục dữ liệu khi cần.
+Trang **Quản lý đề thi** giúp bạn theo dõi và thao tác với toàn bộ thư viện đề trong **hệ thống thi cục bộ**. Nếu số lượng đề thi bắt đầu nhiều lên, đây là nơi cần dùng để tìm kiếm, lọc, sao lưu và khôi phục dữ liệu thay vì quản lý thủ công.
 
-## Các chức năng chính
+Để hiểu tổng quan luồng làm việc với đề, xem [Đề Thi](/admin/de-thi/de-thi/). Nếu cần tạo mới nội dung, xem [Tạo đề thi](/admin/de-thi/tao-de-thi/).
 
-Trong màn hình quản lý đề thi, bạn có thể sử dụng các chức năng sau:
+## Bạn có thể làm gì trong trang này?
 
-- **Tìm kiếm** đề thi theo tên hoặc thông tin liên quan
-- **Lọc** danh sách đề thi theo nhu cầu quản lý
-- **Chỉnh sửa** nội dung hoặc thông tin của đề thi
-- **Xóa** những đề thi không còn sử dụng
+- Tìm kiếm đề thi theo tên hoặc thông tin liên quan.
+- Lọc danh sách đề để quản lý dễ hơn.
+- Chỉnh sửa hoặc xóa đề không còn dùng.
+- Quản lý danh mục đề thi.
+- Sao lưu hoặc khôi phục toàn bộ dữ liệu đề thi.
 
-Nên kiểm tra kỹ nội dung trước khi xóa để tránh mất dữ liệu đang cần dùng cho các kỳ thi sau.
+## Khi nào nên dùng Quản lý đề thi?
+
+Trang này đặc biệt hữu ích khi:
+
+- bạn có nhiều đề cho nhiều môn hoặc nhiều khối lớp,
+- cần sao lưu trước khi nâng cấp hệ thống,
+- cần dọn lại thư viện đề trước kỳ thi mới.
+
+## Tìm kiếm và lọc đề thi
+
+Khi số lượng đề tăng lên, bạn nên:
+
+- tìm theo tên đề,
+- lọc theo danh mục,
+- nhóm đề theo môn học, khối lớp hoặc mục đích sử dụng.
+
+Việc đặt tên đề rõ ràng ngay từ đầu sẽ giúp bước quản lý sau này dễ hơn nhiều. Nếu chưa có quy chuẩn, nên quay lại [Đề Thi](/admin/de-thi/de-thi/) để thống nhất cách đặt tên.
 
 ## Quản lý danh mục
 
-Hệ thống hỗ trợ quản lý danh mục đề thi để việc sắp xếp và tra cứu thuận tiện hơn.
+Hệ thống hỗ trợ danh mục để sắp xếp thư viện đề có cấu trúc hơn.
 
 Bạn có thể:
 
-- **Thêm** danh mục mới
-- **Sửa** tên hoặc thông tin danh mục hiện có
-- **Xóa** danh mục không còn sử dụng
+- thêm danh mục mới,
+- sửa tên danh mục,
+- xóa danh mục không còn dùng.
 
 Khuyến nghị:
 
-- Đặt tên danh mục ngắn gọn, rõ nghĩa và thống nhất.
-- Nên phân loại theo môn học, khối lớp hoặc mục đích sử dụng để dễ quản lý lâu dài.
+- đặt tên danh mục ngắn gọn và nhất quán,
+- phân loại theo môn học, khối lớp hoặc mục tiêu sử dụng như thi thật, thi thử, ôn luyện.
 
-## Sao lưu và khôi phục
+## Sao lưu toàn bộ dữ liệu đề thi
 
-Chức năng sao lưu và khôi phục giúp bạn lưu lại dữ liệu đề thi để phòng trường hợp cần chuyển hệ thống, phục hồi dữ liệu hoặc lưu trữ định kỳ.
+Chức năng sao lưu sẽ tải toàn bộ dữ liệu đề thi về máy dưới dạng file `JSON`.
 
-### Sao lưu toàn bộ (JSON)
+Nên sao lưu trong các trường hợp:
 
-Khi sử dụng chức năng này, hệ thống sẽ tải toàn bộ dữ liệu đề thi về máy dưới dạng một file `JSON`.
+- trước khi cập nhật phiên bản mới từ [Phát hành](/phat-hanh/),
+- trước khi chỉnh sửa số lượng lớn,
+- trước khi chuyển dữ liệu sang máy khác.
 
-Nên thực hiện sao lưu trong các trường hợp sau:
+> Lưu ý: Các file ảnh trong thư mục upload có thể chỉ được lưu dưới dạng đường dẫn tham chiếu. File `JSON` không nhất thiết chứa toàn bộ dữ liệu ảnh thực tế.
 
-- trước khi cập nhật hệ thống
-- trước khi chỉnh sửa dữ liệu số lượng lớn
-- trước khi chuyển dữ liệu sang máy chủ hoặc máy khác
+Vì vậy, nếu câu hỏi có dùng ảnh, bạn nên sao lưu thêm thư mục ảnh hoặc dữ liệu upload liên quan.
 
-> Lưu ý: Các file ảnh trong thư mục upload chỉ được lưu dưới dạng đường dẫn tham chiếu. File `JSON` không chứa dữ liệu ảnh thực tế.
+## Khôi phục dữ liệu đề thi
 
-Vì vậy, nếu hệ thống có sử dụng ảnh trong câu hỏi, bạn nên sao lưu thêm thư mục ảnh hoặc dữ liệu upload liên quan.
+Để khôi phục, hãy tải file `JSON` đã sao lưu lên hệ thống.
 
-### Khôi phục toàn bộ (JSON)
+Trước khi khôi phục, nên:
 
-Để khôi phục dữ liệu, hãy tải file `JSON` đã sao lưu trước đó lên hệ thống.
+- kiểm tra đúng file cần dùng,
+- sao lưu dữ liệu hiện tại nếu còn giá trị,
+- tránh phục hồi nhầm bản cũ lên hệ thống đang chuẩn bị cho kỳ thi.
 
-Khuyến nghị trước khi khôi phục:
+Sau khi khôi phục, hãy rà lại thư viện đề và thử mở một số đề quan trọng trước khi dùng cho [Phiên thi](/admin/phien-thi/).
 
-- kiểm tra đúng file sao lưu cần dùng
-- xác nhận dữ liệu hiện tại đã được sao lưu nếu còn cần giữ lại
-- tránh khôi phục nhầm file cũ lên hệ thống đang vận hành
+## Lưu ý khi xóa hoặc chỉnh sửa đề
 
-Sau khi khôi phục, bạn nên rà soát lại danh sách đề thi để chắc chắn dữ liệu đã được nạp đầy đủ và đúng phiên bản mong muốn.
+- Không nên xóa đề nếu chưa chắc chắn đề đó không còn phục vụ kỳ thi nào.
+- Nếu đề đang dùng cho nhiều lớp hoặc nhiều mục đích, nên sao lưu trước khi sửa sâu.
+- Khi cần dùng đề cho thi chính thức, luôn kiểm tra lại ở [Thêm vào](/admin/de-thi/them-vao/).
+
+## Bước tiếp theo
+
+- Nếu cần tạo hoặc nhập thêm đề: xem [Tạo đề thi](/admin/de-thi/tao-de-thi/)
+- Nếu cần gán đề vào buổi thi: xem [Thêm vào](/admin/de-thi/them-vao/)
+- Nếu chuẩn bị cho thi thật: xem [Phiên thi](/admin/phien-thi/)

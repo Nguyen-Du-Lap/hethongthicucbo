@@ -1,83 +1,50 @@
 ---
-title: Giao diện
-description: Tùy chỉnh giao diện làm bài của học sinh trong khu vực Admin.
+title: Tùy chỉnh giao diện hệ thống thi cục bộ
+description: Cấu hình giao diện thi và chỉnh giao diện làm bài cho học sinh để có trải nghiệm tốt nhất trên hệ thống thi cục bộ.
 ---
 
-# Giao diện
+# Tùy chỉnh giao diện hệ thống thi cục bộ
 
-Tab **Giao diện** dùng để tùy chỉnh cách hiển thị trang làm bài của học sinh. Mọi thay đổi có thể được xem ngay trong khu vực xem trước bên phải trước khi lưu áp dụng.
+Tab **Giao diện** trong [khu vực chức năng Admin](/admin/) dùng để cấu hình giao diện thi và chỉnh giao diện làm bài của học sinh. Thiết lập một giao diện dễ nhìn là bước quan trọng giúp thí sinh không bị mỏi mắt và thao tác chuẩn xác. Mọi thay đổi có thể được xem ngay trong khu vực xem trước bên phải trước khi lưu áp dụng.
 
-## Chức năng chính
+## Các nhóm tùy chỉnh chính
 
-- Chọn bộ màu có sẵn cho giao diện làm bài.
-- Tùy chỉnh màu chủ đạo thủ công.
-- Thay đổi phông chữ hiển thị.
-- Chọn kiểu bo góc cho nút bấm và đáp án.
-- Cấu hình chế độ lặp lại câu sai trong phần ôn luyện.
-- Xem trước giao diện trước khi lưu.
+Tab này cung cấp khả năng can thiệp trực tiếp vào từng yếu tố của giao diện với các cấu hình bao gồm:
+
+- Chọn bộ màu có sẵn để áp dụng ngay.
+- Tùy chỉnh màu chủ đạo thủ công cho giao diện theo ý muốn.
+- Thay đổi phông chữ hiển thị chung.
+- Chọn kiểu bo góc (vuông, tròn, viên thuốc) cho nút bấm và đáp án.
+- Cấu hình chế độ lặp lại câu sai trong phần ôn luyện (không áp dụng cho lúc làm bài thi).
+- Xem trước trực tiếp giao diện trước khi lưu chính thức.
+
+## Nêu ảnh hưởng đến trải nghiệm học sinh 
+
+Mỗi thay đổi ở đây tác động lập tức tới màn hình lúc tham gia [phiên thi chính thức](/exam-page/phien-thi/).
+- **Màu sắc và phông chữ:** Sự tương phản và độ lớn phông chữ quyết định khả năng đọc nhanh trắc nghiệm. Một giao diện với độ tương phản kém ở màn hình máy chiếu hoặc màn hình phụ xa sẽ làm kết quả học sinh bị sai lệch.
+- **Hình thức nút bấm:** Các hình khối rõ ràng, khác biệt màu hỗ trợ việc chọn câu, nộp bài, giúp giảm tỷ lệ "bấm nhầm" khi kết thúc.
 
 ## Bộ màu giao diện
 
 Hệ thống cung cấp nhiều **theme** có sẵn để bạn lựa chọn nhanh, ví dụ:
+- `Deep Space`, `Modern Tech Blue`, `Gen Z Purple`, `Eco Green Science`, `Academic Slate`, `Kids Gamified`, `Midnight Violet`, `Midnight Ocean`
 
-- `Deep Space`
-- `Modern Tech Blue`
-- `Gen Z Purple`
-- `Eco Green Science`
-- `Academic Slate`
-- `Kids Gamified`
-- `Midnight Violet`
-- `Midnight Ocean`
+**Khi nào nên dùng:** Dùng các màu tươi sáng như `Kids Gamified` cho học sinh tiểu học, THCS và dùng `Academic Slate` cho các học sinh phổ thông hoặc sinh viên để tạo sự tập trung. Bạn cũng có thể thiết lập **màu tùy chỉnh** bằng mã HEX ở phần [Cài đặt cấu hình](/admin/cai-dat/).
 
-Ngoài các mẫu có sẵn, bạn cũng có thể nhập **màu tùy chỉnh** bằng mã màu để tạo giao diện phù hợp với nhu cầu sử dụng.
+## Phông chữ và Bo góc
 
-## Phông chữ
-
-Phần **Phông chữ** cho phép chọn kiểu chữ dùng trong giao diện làm bài của học sinh. Hệ thống đồng thời hiển thị một đoạn **xem trước phông chữ** để bạn kiểm tra khả năng đọc và mức độ phù hợp trước khi lưu.
-
-Khi chọn phông chữ, nên ưu tiên loại chữ:
-
-- Dễ đọc trên màn hình lớp học hoặc phòng máy.
-- Hiển thị tốt tiếng Việt.
-- Phù hợp với độ tuổi học sinh.
-
-## Bo góc nút bấm và đáp án
-
-Bạn có thể thay đổi kiểu bo góc cho các nút và ô đáp án để giao diện phù hợp hơn với phong cách sử dụng mong muốn.
-
-Các kiểu hiển thị gồm:
-
-- `Vuông vức`
-- `Hơi bo`
-- `Bo tròn vừa`
-- `Bo tròn nhiều`
-- `Viên thuốc`
-
-Thiết lập này ảnh hưởng trực tiếp đến hình dạng của các nút thao tác và khung đáp án trong màn hình làm bài.
+**Phông chữ** cho phép chọn kiểu chữ dễ đọc. Hệ thống đồng thời hiển thị một đoạn **xem trước phông chữ** để bạn kiểm tra ở phía bên phải.
+**Bo góc nút bấm và đáp án** cung cấp các kiểu hiển thị: `Vuông vức`, `Hơi bo`, `Bo tròn vừa`, `Bo tròn nhiều`, `Viên thuốc`. Dùng kiểu "Viên thuốc" cho học sinh nhỏ tuổi thao tác dễ với thiết bị màn hình cảm ứng, hoặc "Vuông vức" trên hệ máy tính để bàn cơ bản.
 
 ## Chế độ ôn luyện
 
-Phần **Chế độ Ôn luyện** cho phép cấu hình số lần hệ thống lặp lại các câu học sinh làm sai sau mỗi bài thi.
+Phần cấu hình này cho phép tùy biến số lần hệ thống lặp lại các câu học sinh làm sai sau mỗi bài thi. Nếu cấu hình số lần nhỏ, các cháu sẽ nhanh được qua bài, nhưng lặp lại 3-5 lần sẽ bắt buộc học sinh phải nhớ sâu đáp án đúng. Tuy nhiên tuỳ chọn này không ảnh hưởng đến đánh giá của một bài kiểm tra chấm điểm thông thường.
 
-Ví dụ: nếu chọn `3 lần (Lặp lại nhiều lần)`, các câu trả lời sai sẽ được đưa ra lặp lại 3 lần trước khi kết thúc bài ôn luyện.
+## Lưu ý và Gợi ý chung
 
-Tính năng này giúp học sinh:
+- **Lưu ý:** Việc đổi màu liên tục có thể gây khó chịu nếu bài làm đang diễn ra. Thay đổi chỉ nên tạo ra từ trước mỗi buổi.
+- Có thể kết hợp chỉnh màu và font theo các sự kiện hoặc nhận diện của bài kiểm tra đặc thù để tạo cảm hứng. 
 
-- Ghi nhớ lại các câu đã làm sai.
-- Luyện tập nhiều hơn với các phần kiến thức còn yếu.
-- Cải thiện kết quả trong các lần làm bài tiếp theo.
+## Bước kế tiếp
 
-## Xem trước và lưu giao diện
-
-Khu vực xem trước ở bên phải hiển thị trực tiếp giao diện làm bài của học sinh theo cấu hình hiện tại. Bạn nên kiểm tra kỹ màu sắc, phông chữ và kiểu bo góc trước khi lưu.
-
-Các thao tác liên quan gồm:
-
-- **Mặc định**: đưa giao diện về cấu hình mặc định.
-- **Lưu giao diện**: lưu và áp dụng cấu hình hiện tại.
-
-## Gợi ý sử dụng
-
-- Nên chọn bộ màu có độ tương phản tốt để học sinh dễ nhìn trong thời gian dài.
-- Với học sinh nhỏ tuổi, nên ưu tiên giao diện sáng, rõ ràng và nút bấm dễ nhận biết.
-- Sau khi thay đổi giao diện, hãy kiểm tra phần xem trước để bảo đảm đáp án và nội dung câu hỏi vẫn dễ đọc.
+Sau khi lưu cấu hình ưng ý, bước tiếp theo bạn cần mở trang làm bài và [tạo phiên thi học sinh](/admin/phien-thi/) để ngắm hệ thống thật sự.

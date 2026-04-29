@@ -1,43 +1,47 @@
 ---
 title: Cài đặt
-description: Tùy chỉnh giao diện và thao tác của màn hình quản trị trong Admin.
+description: Hướng dẫn cấu hình khu vực Admin của hệ thống thi cục bộ, gồm giao diện, tần suất làm mới và các thiết lập quản trị trên trình duyệt.
 ---
 
 # Cài đặt
 
-Tab **Cài đặt** dùng để tùy chỉnh trải nghiệm sử dụng của màn hình quản trị (**Admin Dashboard**) trên trình duyệt hiện tại. Các thiết lập trong trang này không thay đổi dữ liệu hệ thống, mà chủ yếu ảnh hưởng đến cách hiển thị và thao tác trong khu vực quản trị.
+Tab **Cài đặt** dùng để cấu hình trải nghiệm của khu vực **Admin** trên trình duyệt đang sử dụng. Đây là trang dành cho **cài đặt trong khu vực quản trị**, không phải phần cài đặt hạ tầng máy chủ. Nếu bạn đang tìm phần triển khai hệ thống trong mạng LAN, hãy xem [Cài đặt và thiết lập](/cai-dat-va-thiet-lap/).
+
+## Trang này ảnh hưởng đến gì?
+
+Các thiết lập ở đây chủ yếu tác động đến:
+
+- cách giao diện Admin hiển thị,
+- cách dữ liệu được làm mới trong lúc giám sát,
+- trải nghiệm sử dụng của giáo viên hoặc người quản trị.
+
+Nó không thay đổi nội dung đề thi, lớp học hay cấu trúc dữ liệu cốt lõi của hệ thống.
 
 ## Chức năng chính
 
-- Chọn chủ đề nền cho toàn bộ trang quản trị.
+- Chọn chủ đề nền cho khu vực quản trị.
 - Thay đổi kích cỡ chữ hệ thống.
 - Thiết lập khoảng thời gian tự động làm mới dữ liệu.
 - Bật hoặc tắt cảnh báo âm thanh.
 - Bật hoặc tắt chế độ hiển thị thu gọn.
-- Lưu cấu hình đang sử dụng.
+- Lưu cấu hình hiện tại.
 
-## Giao diện và hiển thị
-
-Nhóm **Giao diện & Hiển thị** cho phép điều chỉnh cách màn hình quản trị được hiển thị trên trình duyệt.
+## Nhóm giao diện và hiển thị
 
 ### Chủ đề nền
 
-Phần **Chủ đề nền (Áp dụng toàn trang)** cho phép chọn kiểu nền phù hợp với môi trường sử dụng và thói quen quan sát của người quản trị.
-
-Các lựa chọn hiện có gồm:
+Phần **Chủ đề nền** cho phép chọn kiểu hiển thị phù hợp với môi trường sử dụng:
 
 - `Tối thuần`
 - `Sáng thuần`
 - `Nền Sáng`
 - `Nền Tối`
 
-Mỗi chủ đề sẽ thay đổi tông màu tổng thể của trang quản trị. Bạn nên chọn kiểu nền có độ tương phản tốt để dễ quan sát dữ liệu trong thời gian dài.
+Khi giám sát trong thời gian dài, bạn nên chọn chủ đề có độ tương phản đủ tốt để giảm mỏi mắt.
 
 ### Kích cỡ chữ hệ thống
 
-Phần **Kích cỡ chữ hệ thống** cho phép tăng hoặc giảm cỡ chữ của giao diện quản trị để phù hợp với màn hình sử dụng.
-
-Các mức chữ hiện có gồm:
+Bạn có thể thay đổi kích cỡ chữ theo các mức:
 
 - `Nhỏ`
 - `Vừa`
@@ -46,42 +50,62 @@ Các mức chữ hiện có gồm:
 - `Cực lớn`
 - `Khổng lồ`
 
-Thiết lập này hữu ích khi quản trị viên làm việc trên màn hình lớn, trình chiếu hoặc cần tăng khả năng quan sát trong phòng máy.
+Thiết lập này đặc biệt hữu ích khi:
 
-## Thao tác và dữ liệu
+- dùng màn hình trình chiếu hoặc màn hình lớn,
+- cần theo dõi dữ liệu từ xa trong phòng máy,
+- nhiều người cùng nhìn vào màn hình quản trị.
 
-Nhóm **Thao tác & Dữ liệu** hỗ trợ tối ưu cách hệ thống cập nhật thông tin và cách hiển thị dữ liệu trong quá trình quản trị.
+## Nhóm thao tác và dữ liệu
 
 ### Khoảng thời gian tự động làm mới
 
-Thiết lập **Khoảng thời gian Tự động làm mới** quy định chu kỳ hệ thống tự cập nhật dữ liệu từ máy chủ cho các bảng theo dõi, chẳng hạn như khu vực giám sát phiên thi.
+Thiết lập này quyết định chu kỳ hệ thống tự cập nhật dữ liệu từ máy chủ, đặc biệt quan trọng trong lúc giám sát [Phiên thi](/admin/phien-thi/).
 
-Ví dụ: tùy chọn `5 giây (Khuyên dùng)` giúp hệ thống làm mới dữ liệu định kỳ mà vẫn giữ trải nghiệm ổn định trong hầu hết tình huống sử dụng.
+Ví dụ: mức `5 giây` thường là lựa chọn cân bằng giữa độ cập nhật và sự ổn định.
 
 ### Cảnh báo âm thanh
 
-Tùy chọn **Bật cảnh báo âm thanh** cho phép hệ thống phát chuông khi có học viên vừa nhấn **Nộp bài**.
+Tùy chọn này cho phép phát âm thanh khi có sự kiện như học sinh vừa nộp bài.
 
-Tính năng này phù hợp khi:
+Nên bật khi:
 
-- Cần theo dõi nhanh trạng thái nộp bài mà không phải quan sát liên tục.
-- Quản trị viên đang giám sát nhiều học sinh cùng lúc.
+- đang giám sát nhiều học sinh cùng lúc,
+- không thể nhìn liên tục vào màn hình.
 
 ### Chế độ hiển thị thu gọn
 
-Tùy chọn **Chế độ hiển thị thu gọn (Compact)** giúp giảm khoảng cách giữa các hàng trong bảng hoặc danh sách để hiển thị được nhiều dữ liệu hơn trên một màn hình.
+Chế độ **Compact** giúp hiển thị nhiều dòng dữ liệu hơn trên cùng một màn hình.
 
-Chế độ này phù hợp khi:
+Nên bật khi:
 
-- Cần theo dõi nhiều dòng dữ liệu cùng lúc.
-- Sử dụng màn hình có độ phân giải thấp hoặc không gian hiển thị hạn chế.
+- cần theo dõi danh sách dài,
+- đang dùng màn hình nhỏ hoặc độ phân giải thấp,
+- muốn nhìn được nhiều học sinh hơn trong lúc giám sát.
 
-## Lưu cài đặt
+## Khi nào nên chỉnh tab Cài đặt?
 
-Sau khi hoàn tất điều chỉnh, bạn nhấn **Lưu cài đặt** để áp dụng cấu hình hiện tại cho màn hình quản trị trên trình duyệt đang dùng.
+Bạn nên vào tab này khi:
 
-## Gợi ý sử dụng
+- mới đăng nhập lần đầu và muốn chỉnh môi trường làm việc phù hợp,
+- chuẩn bị giám sát một buổi thi dài,
+- cảm thấy màn hình Admin quá khó quan sát ở cấu hình hiện tại.
 
-- Nếu làm việc trong thời gian dài, nên chọn chủ đề nền và cỡ chữ giúp mắt dễ quan sát nhất.
-- Khi đang giám sát phiên thi, nên bật tự động làm mới và cảnh báo âm thanh để không bỏ sót trạng thái nộp bài.
-- Nếu cần theo dõi nhiều dữ liệu trên cùng một màn hình, nên bật chế độ hiển thị thu gọn.
+Nếu bạn cần chỉnh trải nghiệm liên quan đến phần học sinh hoặc ôn luyện, xem thêm [Giao diện](/admin/giao-dien/).
+
+## Lưu ý trước khi ngày thi bắt đầu
+
+Trước buổi thi thật, nên kiểm tra:
+
+- chủ đề nền có dễ quan sát không,
+- kích cỡ chữ có đủ rõ không,
+- tần suất tự động làm mới có phù hợp không,
+- cảnh báo âm thanh có đang bật nếu bạn cần theo dõi nhanh trạng thái nộp bài.
+
+Sau khi chỉnh xong, nhớ bấm **Lưu cài đặt** để áp dụng cho trình duyệt hiện tại.
+
+## Nên đọc tiếp gì?
+
+- Nếu bạn đang chuẩn bị buổi thi: xem [Phiên thi](/admin/phien-thi/)
+- Nếu cần xử lý lỗi trong lúc vận hành: xem [Troubleshooting / FAQ](/troubleshooting-faq/)
+- Nếu đang cài hệ thống từ đầu: xem [Cài đặt và thiết lập](/cai-dat-va-thiet-lap/)
