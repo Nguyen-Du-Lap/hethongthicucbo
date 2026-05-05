@@ -1,6 +1,5 @@
 # build output
 dist/
-.vercel/
 # generated types
 .astro/
 
@@ -16,7 +15,6 @@ pnpm-debug.log*
 
 # environment variables
 .env
-.env.local
 .env.production
 
 # macOS-specific files

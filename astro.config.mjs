@@ -1,7 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import vercel from '@astrojs/vercel';
 
 const site = process.env.SITE_URL || 'https://hethongthicucbo.vercel.app/';
 const base = process.env.BASE_PATH || '/';
@@ -9,8 +8,6 @@ const base = process.env.BASE_PATH || '/';
 export default defineConfig({
 	site,
 	base,
-	output: 'server',
-	adapter: vercel(),
 	integrations: [
 		starlight({
 			title: 'Hệ thống thi cục bộ',
