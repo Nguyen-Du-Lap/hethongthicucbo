@@ -11,7 +11,7 @@ Trang này dùng để theo dõi các **phiên bản phát hành của hệ th�
 - **Phiên bản:** `v1.0.0`
 - **Ngày phát hành:** `2026-04-23`
 - **Trạng thái:** Ổn định
-- **Gói tải về:** [Tải bản v1.0.0 (.rar, 28MB)](/downloads/he-thong-thi-noi-bo-v1.0.0.rar)
+- **Gói tải về:** [Tải bản v1.0.0 (.rar, 18,4MB)](/downloads/he-thong-thi-noi-bo-v1.0.0.rar)
 
 ## Sau khi tải về, bạn có thể đi tiếp theo thứ tự:
 
@@ -39,9 +39,9 @@ Nếu phiên bản đang dùng phục vụ buổi thi thật, không nên nâng 
 
 ## Lịch sử phiên bản
 
-| Phiên bản                                                   | Ngày phát hành | Trạng thái | Ghi chú                    |
-| ------------------------------------------------------------- | ----------------- | ------------ | --------------------------- |
-| [v1.0.0 (.rar, 28MB)](/downloads/he-thong-thi-noi-bo-v1.0.0.rar) | 2026-04-23        | Stable       | Bản phát hành khởi tạo |
+| Phiên bản                                                     | Ngày phát hành | Trạng thái | Ghi chú                    |
+| --------------------------------------------------------------- | ----------------- | ------------ | --------------------------- |
+| [v1.0.0 (.rar, 18,4MB)](/downloads/he-thong-thi-noi-bo-v1.0.0.rar) | 2026-04-23        | Stable       | Bản phát hành khởi tạo |
 
 ## Trước khi tải hoặc cài bản mới cần lưu ý gì?
 
